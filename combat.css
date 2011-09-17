@@ -1,0 +1,22 @@
+.Fighter {
+	border: 1px solid gray;
+	overflow: visible;
+	position: relative;
+}
+
+.info {
+	clear: left;
+	float: left;
+	font: 0.7em/1em 'Arial', sans-serif;
+	position: relative;
+	white-space: nowrap;
+}
+	.info.mind {
+		color: blue;
+	}
+	.info.body {
+		color: orange;
+	}
+	.info.spirit {
+		color: lime;
+	}
